@@ -10,6 +10,6 @@ COPY requirements.txt ./
 # install app dependencies 
 RUN pip install --no-cache-dir -r requirements.txt
 # port image will expose
-EXPOSE 5000
+EXPOSE 80
 # default command for container to run 
 CMD ["python", "app.py"]
